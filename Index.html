@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FastCab</title>
+
+	<style>
+
+  /*Navigation Bar Styles*/
+
+	  .navbar{
+		  background-color: grey;
+      position: fixed;
+      top: 0%;
+      width: 100%;
+    }
+    .navbar a{
+      float: right;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .navbar a:hover {
+      background: lightyellow;
+      color: black;
+    }
+    
+  /*Body Styles*/
+
+    body{
+	    margin: 0;
+			padding: 0;
+			font-family: arial;
+      background-image: url("back.jpg");
+      background-position: right;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 50% 100%;
+      background-color: lightyellow;
+    }
+
+  /*Heading Styles(Want A Ride?)*/
+		
+	  h1{
+      font-size: 5vw;
+      padding: 10vw;
+      margin-right:45vw;
+      text-align: center;
+    }
+
+  /*Button Styles(Login,Signup)*/
+
+    .bt1{
+      padding: 20px;
+      position: absolute;
+      left: 16%;
+      top: 60%;
+      font-size: 18px;
+      background-color: black;
+      color: white;
+    }
+    .bt2{
+    padding: 20px;
+    position: absolute;
+    left: 15.5%;
+    top: 80%;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    }
+
+  /*Para Styles(Or,If New)*/
+
+    .p1{
+      position: absolute;
+      top: 70%;
+      left: 20%;
+    }
+    .p2{
+      position: absolute;
+      top: 73%;
+      left: 17.5%;
+    }
+
+	</style>
+
+</head>
+
+<body>
+  
+  <!-- Navigation Body -->
+
+		<div class="navbar">
+      <img src="logo.jpg"> 
+      <a href="Signup.html" >SignUp</a>
+      <a href="Login.html" >Login</a>
+	    <a href="About.html" >About us</a>
+      <a href="Homepage.html" >Home</a>
+    </div>
+
+  <!-- Page Body -->
+
+    <h1>Want A Ride?</h1>
+    <a href="Login.html"><button class="bt1">Login to ride</button></a>
+    <p class="p1">Or</p>
+    <p class="p2">If New Here</p>
+    <a href="Signup.html"><button class="bt2">Signup to ride</button></a>
+
+</body>
+</html>
